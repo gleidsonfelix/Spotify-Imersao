@@ -1,0 +1,208 @@
+
+body {
+    background-color: #000;
+}
+
+/*SIDEBAR*/
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/*SIDEBAR NAV*/
+
+.sidebar__navigation {
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.sidebar__navigation .sidebar-logo {
+    padding: 16px;
+    margin-bottom:0px;
+}
+
+.sidebar__navigation .sidebar-logo:hover {
+    cursor: pointer;
+}
+
+.sidebar__navigation .sidebar-logo img {
+    display: flex;
+    width: 80px;
+}
+
+.sidebar__navigation ul li {
+    padding: 16px;
+}
+
+.sidebar__navigation ul li a {
+    color: #b3b3b3;
+}
+
+.sidebar__navigation ul li a:hover {
+    color: #fff;
+}
+
+.sidebar__navigation ul li a .fa {
+    margin-right: 10px;
+}
+
+/*LIBRARY*/
+
+.library {
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.library .library__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.library__menu a {
+    color: #b3b3b3;
+}
+
+.library__menu a span:hover {
+    color: #fff;
+}
+
+.library .library__menu a .fa {
+    margin-right: 10px;
+}
+
+
+.library__menu  .fa {
+    color: #b3b3b3;
+}
+
+.library__menu  .fa:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.library .library-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5px 10px 20px 10px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--bg-top-bar);
+}
+
+.library .library-section__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.library .library-section__text .title {
+    font-weight: 700;
+    color: #fff;
+}
+
+.library-section__text .subtitle {
+    font-weight: 500;
+    color: #fff;
+}
+
+.library-section__button {
+    display: flex;
+    justify-content: center;
+    width: 113px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+}
+
+.library-section__button:hover {
+    cursor: pointer;
+    scale: 1.125;
+}
+
+.library .cookies {
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    color: #b3b3b3;
+}
+
+.library .cookies:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.library .languages {
+    padding: 10px 16px;
+}
+
+.library .languages .languages__button {
+    width: 170px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 9999px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #fff;
+}
+
+.library .languages .languages__button:hover {
+    scale: 1.025;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.library .languages .languages__button .fa {
+    margin-right: 5px;
+}
+
+
+/*FOOTER*/
+
+.advertising {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.advertising__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.advertising__text p {
+    color: #fff;
+}
+
+.advertising__button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    color: #000;
+}
+
+.advertising__button:hover {
+    cursor: pointer;
+    scale: 1.025;
+}
+

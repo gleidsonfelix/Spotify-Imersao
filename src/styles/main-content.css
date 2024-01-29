@@ -1,0 +1,251 @@
+.main-content {
+    border-radius: 8px;
+    max-width: 80vw;
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: 360px;
+    margin-right: 50px;
+    background-color: #121212;
+}
+
+/*HEADER*/
+
+.main-content .main-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    background-color: #000000a9;
+}
+
+.header__navigation .arrow-left, .arrow-right  {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    cursor: pointer;
+}
+
+
+.main-content-header .header__search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 9999px;
+    background-color: var(--bg-top-bar);
+}
+
+.header__search:focus-within {
+    border: 1px solid #fff;
+}
+
+.main-content-header .header__search img {
+    width: 20px;
+    margin-right: 5px;
+} 
+
+.main-content-header .header__search input {
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: transparent;
+    color: #fff;
+}
+
+.main-content-header .header__login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__login .subscribe {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #b3b3b3;
+}
+
+.subscribe:hover {
+    scale: 1.115;
+    color: #fff;
+}
+
+.header__login .login {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: bolder;
+    background-color: #fff;
+    color: #000;
+}
+
+.login:hover {
+    scale: 1.115;
+
+}
+
+
+/*BODY*/
+
+.body__scroll {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.body__text {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.body__text h2 {
+    color: #fff;
+}
+
+.playlists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+}
+
+
+.cards {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 10px 0px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cards img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+}
+
+.cards span {
+    position: absolute;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card1 {
+    background-color: var(--card1);
+}
+
+.card2 {
+    background-color: var(--card2);
+}
+
+.card3 {
+    background-color: var(--card3);
+}
+
+.card4 {
+    background-color: var(--card4);
+}
+
+.card5 {
+    background-color: var(--card5);
+}
+
+.card6 {
+    background-color: var(--card6);
+}
+
+.card7 {
+    background-color: var(--card7);
+}
+
+.card8 {
+    background-color: var(--card8);
+}
+
+.card9 {
+    background-color: var(--card9);
+}
+
+.card10 {
+    background-color: var(--card10);
+}
+
+.card11 {
+    background-color: var(--card11);
+}
+
+.card12 {
+    background-color: var(--card12);
+}
+
+.card13 {
+    background-color: var(--card13);
+}
+
+.card14 {
+    background-color: var(--card14);
+}
+
+.card15 {
+    background-color: var(--card15);
+}
+
+/*ARTISTS*/
+
+
+.result-artists {
+    border: 1px solid white;
+    width: 250px;
+    height: 280px;
+    padding: 5px 0px;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.artist-img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid  white;
+    border-radius: 50%;
+}
+
+.artist-name {
+    color: #b3b3b3;
+}
+
+.result-artists.hidden {
+    display: none;
+}
+
+.body__text.hidden {
+    display: none;
+}
+
+
+.playlists.hidden {
+    display: none;
+}
+    
+        
+    
+
+

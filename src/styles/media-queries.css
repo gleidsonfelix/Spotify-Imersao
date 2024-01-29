@@ -1,0 +1,6 @@
+@media screen and (max-width: 950px) {
+    
+    .playlists {
+        grid-template-columns: 1fr 1fr;
+    }
+}
